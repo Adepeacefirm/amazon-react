@@ -10,7 +10,7 @@ import SingleProduct from "../pages/SingleProduct";
 import AddPost from "../pages/AddPost";
 import { Toaster } from "sonner";
 import AuthProvider from "./contexts/AuthContext";
-import ProductProvider from "./contexts/productContext";
+import ProductProvider, { productContext } from "./contexts/ProductContext";
 import Signup from "../pages/Signup";
 import Login from "../pages/Login";
 import VerifyAccount from "../pages/VerifyAccount";
