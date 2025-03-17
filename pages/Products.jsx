@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { productContext } from "../src/contexts/productContext";
+import { productContext } from "../src/contexts/ProductContext";
 
 const Products = () => {
   // const [products, setProducts] = useState([]);
