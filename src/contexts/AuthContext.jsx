@@ -19,9 +19,9 @@ const AuthProvider = ({ children }) => {
         headers: {
           "Content-Type": "application/json",
         },
-      });
+      })
 
-      const data = await res.json;
+      const data = await res.json
       if (res.ok) {
         toast.success(data.message);
         navigate("/dashboard");
