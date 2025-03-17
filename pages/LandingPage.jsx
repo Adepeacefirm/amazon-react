@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { authContext } from '../src/contexts/AuthContext'
-import { productContext } from '../src/contexts/productContext'
+import { productContext } from '../src/contexts/ProductContext'
 
 
 
