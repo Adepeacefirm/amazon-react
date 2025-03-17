@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import "./signup.css";
+import "./Signup.css";
 import { toast } from "sonner";
 import { useNavigate } from "react-router-dom";
 import { authContext } from "../src/contexts/AuthContext";

@@ -1,5 +1,5 @@
 // Desc: Login page
-import "./signup.css";
+import "./Signup.css";
 import { authContext } from "../src/contexts/AuthContext";
 import { Link } from "react-router-dom";
 import { useState, useContext } from "react";
