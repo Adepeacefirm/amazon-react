@@ -1,0 +1,59 @@
+.signup-form{
+    width: 90vw;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 5px;
+    
+}
+
+.signup-form label, .signup-form input{
+    display: block;
+    width: 100%;
+}
+
+.signup-form > div{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.signup-form input, .signup-form button, .signup-form select{
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+
+.signup-form button {
+    background-color: black;
+    color: white;
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+}
+
+.signup-form button:hover, .signup-form button:disabled{
+    background-color: #666;
+}
+
+.signup-form button:disabled{
+    cursor: not-allowed;
+}
+
+.signup-form .password-input{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    border: 1px solid;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}
+
+.signup-form .password-input input{
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
